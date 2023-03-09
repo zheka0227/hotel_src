@@ -1,0 +1,7 @@
+let dict1 = {"zayavka":"удалено","bron":"ЗАЯВКА","zaselen":"ЗАСЕЛЕНИЕ","ol1":"ОЛ №1","ol2":"ОЛ №2","sk":"Спальный корпус","number":"Номер","place_1_1":"Место 1+1","add_place":"Дополнительное место","bez_lechenia":"Без лечения","s_lecheniem_5":"С лечением 5 процедур","s_lecheniem_8":"С лечением 8 процедур","kurort_sbor_3":"Курортный сбор 3%","kurort_sbor_pv":"Льгота «пенсионный возраст»","kurort_sbor_18":"Льгота «дети до 18 лет»","kurort_sbor_i12":"Льгота «инвалид 1-2 группы»","kurort_sbor_sluzba":"Льгота «служебные обязанности и командировка»","kurort_sbor_student":"Льгота «учащиеся и студенты дневной формы обучения»","putevka_vih_dna":"Путевка выходного дня","place_2_1":"Место 2+1","place_2_2":"Место 2+2","place":"Место"}
+let auth = {"auth":"Авторизация","login":"Войти","loginWithoutLoginAndPassword":"вход без пароля,возможен и без логина","badLoginOrPasspord":"неправильный логин или пароль"}
+let chess = {"markCells":"ОТМЕТИТЬ ЯЧЕЙКИ","cancel":"ОТМЕНА","register":"ЗАРЕГИСТРИРОВАТЬ","chess_korpus":"Корпус: ","chess_showFrom":"Показать с: ","chess_to":"по: ","chess_zay":"ЗАЯВКА","chess_zas":"ЗАСЕЛЕНИЕ","chess_numbers":"Номера"}
+let nav = {"nav_regkont":"Регистрация контрагента", "nav_chess":"Шахматка", "nav_report":"Отчет"}
+let popup = {"popup_ok":"OK", "popup_cancel":"ОТМЕНА"}
+let dict = Object.assign(dict1, auth, chess, nav, popup)
+export default dict
